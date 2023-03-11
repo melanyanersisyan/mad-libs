@@ -4,8 +4,7 @@ template = input("Enter a, b, c or you can choose and write random")
 
 if template == "random":
     a = ['a','b','c']
-    template = random.choice(a)
-    
+    template = random.choice(a)  
     
 if template == 'a':
     print("story a")
